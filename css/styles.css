@@ -132,10 +132,19 @@ ul {
 }
 /* ---------hero------------ */
 .hero {
+  max-width: 1600px;
+  max-height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  background-color: var(--secondary-bg-color);
+  background-color: #c4c4c4;
+  background-image: url(../images/herobg.jpg);
+  /* linear-gradient(to right, rgba(47, 48, 58, 0.4)),  */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .hero .container {
   display: flex;
