@@ -126,7 +126,7 @@ ul {
 }
 .contacts-nav .link:hover .header-icon,
 .contacts-nav .link:focus .header-icon {
-  stroke: var(--accent-color);
+  fill: var(--accent-color);
 }
 .contacts-nav {
   display: flex;
@@ -138,10 +138,8 @@ ul {
 }
 
 .header-icon {
-  width: 16px;
-  height: 12px;
   margin-right: 10px;
-  stroke: var(--secondary-text-color);
+  fill: var(--secondary-text-color);
 }
 
 /* ---------hero------------ */
@@ -150,8 +148,7 @@ ul {
   max-height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   text-align: center;
   background-color: #c4c4c4;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -225,6 +222,16 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+.benefits-icon-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
 }
 /* ---------work------------ */
 .work .title {
