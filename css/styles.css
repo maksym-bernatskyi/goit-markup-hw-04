@@ -331,8 +331,8 @@ ul {
 .team-social-icon {
   fill: var(--secondary-text-color);
 }
-.team-social-icon:hover,
-.team-social-icon:focus {
+.team-social-link:hover .team-social-icon,
+.team-social-link:focus .team-social-icon {
   fill: var(--primary-white-color);
 }
 /* ---------footer------------ */
