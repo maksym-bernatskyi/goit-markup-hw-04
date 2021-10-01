@@ -442,6 +442,7 @@ ul {
   margin-left: 70px;
 }
 .conection-title {
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -449,16 +450,16 @@ ul {
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
-.conection-social {
+.connection-social {
   display: flex;
 }
-.conection-social-item {
+.connection-social-item {
   margin-right: 10px;
 }
-.conection-social-item:last-child {
+.connection-social-item:last-child {
   margin-right: 0;
 }
-.conection-link {
+.connection-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -467,11 +468,11 @@ ul {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
-.conection-link:hover,
-.conection-link:focus {
+.connection-link:hover,
+.connection-link:focus {
   background-color: var(--accent-color);
 }
-.conection-social-icon {
+.connection-social-icon {
   fill: var(--primary-white-color);
 }
 
