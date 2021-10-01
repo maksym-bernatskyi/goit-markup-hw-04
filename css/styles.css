@@ -256,6 +256,7 @@ ul {
 .work-items .item:last-child {
   margin-right: 0;
 }
+
 /* ---------team------------ */
 .team {
   background-color: #f5f4fa;
@@ -303,6 +304,36 @@ ul {
 }
 .team-list .item:last-child {
   margin-right: 0;
+}
+.team-social {
+  display: flex;
+  padding: 16px 32px 30px 32px;
+}
+.team-social-item {
+  margin-right: 10px;
+}
+.team-social-item:last-child {
+  margin-right: 0;
+}
+.team-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--primary-white-color);
+  border-radius: 50%;
+}
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--accent-color);
+}
+.team-social-icon {
+  fill: var(--secondary-text-color);
+}
+.team-social-icon:hover,
+.team-social-icon:focus {
+  fill: var(--primary-white-color);
 }
 /* ---------footer------------ */
 .footer {
