@@ -395,6 +395,7 @@ ul {
 }
 .footer {
   display: flex;
+  align-items: baseline;
 }
 .logo-part-2 {
   color: var(--primary-white-color);
