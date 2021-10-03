@@ -59,6 +59,7 @@ ul {
   align-content: center;
   align-self: center;
   justify-content: center;
+  border-bottom: 1px solid #ececec;
 }
 .logo {
   align-self: center;
@@ -367,7 +368,7 @@ ul {
   justify-content: center;
   width: 170px;
   height: 92px;
-  background-color: #f5f4fa;
+  background-color: var(--primary-white-color);
 }
 .clients-icon {
   fill: var(--secondary-text-color);
